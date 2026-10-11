@@ -1,0 +1,50 @@
+# Build directory
+build/
+vcpkg_installed/
+
+# IDE files
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Binary files
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+
+# Logs and temporary files
+*.log
+*.dmp
+crash_report.txt
+stderr.txt
+stdout.txt
+output.dxf
+
+# Dependencies
+vcpkg/
+
+# Specific large files
+vcpkg_installed/x64-windows/debug/bin/opencv_dnn4d.pdb
+vcpkg_installed/x64-windows/debug/lib/libprotobufd.lib
+build/vcpkg_installed/x64-windows/debug/bin/opencv_dnn4d.pdb
+build/vcpkg_installed/x64-windows/debug/lib/libprotobufd.lib
+vcpkg_installed/x64-windows/bin/libprotoc.pdb
+vcpkg_installed/x64-windows/lib/libprotobuf.lib
+build/vcpkg_installed/x64-windows/bin/libprotobuf.pdb
+build/vcpkg_installed/x64-windows/bin/libprotoc.pdb
+build/vcpkg_installed/x64-windows/lib/libprotobuf.lib
+vcpkg_installed/x64-windows/bin/libprotobuf.pdb
+build/vcpkg_installed/x64-windows/debug/bin/libprotobufd.pdb
+build/vcpkg_installed/x64-windows/debug/bin/libprotocd.pdb
+vcpkg_installed/x64-windows/debug/bin/libprotobufd.pdb
+vcpkg_installed/x64-windows/debug/bin/libprotocd.pdb 
